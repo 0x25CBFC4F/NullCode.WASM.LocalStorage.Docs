@@ -1,0 +1,22 @@
+site_name: NullCode.WASM.LocalStorage
+theme:
+  name: material
+  palette:
+    primary: black
+    scheme: slate
+nav:
+  - Home: index.md
+  - Getting started: start.md
+  - Code examples:
+    - Adding to DI: examples/add.md
+    - Writing to local storage: examples/writing.md
+    - Reading from local storage: examples/reading.md
+    - Clearing local storage: examples/clear.md
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
+  - javascripts/config.js
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/vs2015.min.css
